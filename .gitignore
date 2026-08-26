@@ -1,0 +1,29 @@
+
+#Environnements Python / IDE
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.env.*
+*.sqlite3
+
+# Outils Poetry / Pip 
+poetry.lock
+venv/
+.env/
+.venv/
+
+
+# Editeurs
+.vscode/
+.idea/
+*.swp
+
+# Test / Couverture
+htmlcov/
+.coverage
+
+# Migrations Alembic compilées
+alembic/versions/*.pyc
